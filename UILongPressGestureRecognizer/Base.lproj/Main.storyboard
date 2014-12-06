@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C78c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="UILongPressGestureRecognizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="x6b-4u-Upf">
+                                <rect key="frame" x="1" y="0.0" width="374" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1jq-EA-MnM">
+                                <rect key="frame" x="16" y="20" width="211" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="XEp-A2-bQh">
+                                        <rect key="frame" x="-29" y="7" width="272" height="80"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.2784313725" alpha="0.0" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j9l-iE-rcF">
+                                <rect key="frame" x="54" y="295" width="200" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="QnO-o2-2qd">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qxg-Ns-pvw">
+                                <rect key="frame" x="16" y="518" width="200" height="90"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="xwT-XB-JLr">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="90"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ejJ-Zz-of3">
+                                <rect key="frame" x="39" y="130" width="110" height="110"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sun.png" translatesAutoresizingMaskIntoConstraints="NO" id="aBu-O8-cuD">
+                                        <rect key="frame" x="-7" y="5" width="124" height="100"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k9l-tF-cwJ">
+                                <rect key="frame" x="191" y="145" width="168" height="80"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="9At-bd-rtd">
+                                        <rect key="frame" x="1" y="0.0" width="167" height="80"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Sun" destination="ejJ-Zz-of3" id="A34-Kx-LXf"/>
+                        <outlet property="cloudFour" destination="xwT-XB-JLr" id="Zsb-Um-hQh"/>
+                        <outlet property="cloudOne" destination="XEp-A2-bQh" id="t4L-UE-4mw"/>
+                        <outlet property="cloudThree" destination="QnO-o2-2qd" id="Tav-S2-CPZ"/>
+                        <outlet property="cloudTwo" destination="9At-bd-rtd" id="SfQ-Uh-ByE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Sun.png" width="400" height="400"/>
+        <image name="Unknown-1.png" width="694" height="271"/>
+        <image name="Unknown-2.png" width="940" height="466"/>
+        <image name="Unknown-3.png" width="1524" height="722"/>
+        <image name="Unknown-4.png" width="1173" height="491"/>
+        <image name="Unknown.jpeg" width="2400" height="600"/>
+    </resources>
+</document>
